@@ -31,11 +31,13 @@ def main():
         ),
     )
 
-    recorder = AudioToTextRecorder(model="tiny.en", language="en", spinner=False)  # Creates an instance of the audio recorder for real-time speech-to-text conversion
+    recorder = AudioToTextRecorder(model="tiny", language="es")       # Creates an instance of the audio recorder for real-time speech-to-text conversion
 
 
     while True:
+        print("You: ", end="", flush=True)  # Prompts the user for input
         user_input = recorder.text() 
+        print(user_input)
         if user_input.lower() == "exit": 
             break
 
@@ -43,3 +45,6 @@ def main():
         for chunk in response:
             print(chunk.text, end="", flush=True)
         print() 
+
+if __name__ == "__main__":
+    main()
