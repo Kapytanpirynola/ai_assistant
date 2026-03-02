@@ -2,7 +2,7 @@ from google import genai    # Imports the main Gemini AI library
 from google.genai import types        # Imports data types for configuring requests
 import os                             # Imports the 'os' module for system interactions
 from dotenv import load_dotenv   
-from RealtimeSTT import AudioToTextRecorder  # Imports a custom module for real-time speech-to-text conversion  
+from realtimestt import AudioToTextRecorder  # Imports a custom module for real-time speech-to-text recording  
 
 # Load environment variables from .env file
 load_dotenv()
