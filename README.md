@@ -1,6 +1,6 @@
 # 🤖 Nyx — AI Voice Assistant
 
-Nyx is a conversational voice assistant inspired by Friday (Iron Man). It listens to your voice, thinks with Google Gemini, and responds out loud using text-to-speech — all running locally on your machine.
+Nyx is a conversational voice assistant inspired by Friday (Iron Man). It listens to your voice, thinks with Google Gemini, and responds out loud using text-to-speech — all running locally on your machine. 
 
 ---
 
